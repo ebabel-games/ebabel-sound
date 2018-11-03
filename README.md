@@ -12,9 +12,9 @@ npm install --save ebabel-sound
 
 ### Usage
 ```
-const ebabelSound = require('ebabel-sound');
+const Sound = require('ebabel-sound');
 
-const result = ebabelSound();
+const middleA = new Sound(0, 440, 0.2);
 ```
 
 ## Development of this module
